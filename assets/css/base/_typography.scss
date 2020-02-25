@@ -1,0 +1,16 @@
+// Responsive font-size based on viewport width
+html {
+  font-family: 'Lato',"Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  font-size: $text-md-size;
+  color: $primaryColour;
+  @include sm-display {
+    font-size: $text-sm-size;
+  }
+}
+
+h3 {
+  font-size: $title-md-size;
+  @include sm-display {
+    font-size: $text-sm-size;
+  }
+}

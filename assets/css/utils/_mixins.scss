@@ -1,0 +1,7 @@
+// Mixin responsive, breaking point à partir de 992px
+
+@mixin sm-display {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
