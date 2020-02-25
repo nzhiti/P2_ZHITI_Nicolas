@@ -38,7 +38,7 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
+  width: 35%;
   background-color: #FF8F00;
   position: absolute;
   top: 0;
@@ -123,6 +123,14 @@ h3 {
   .main--sidebar-contact-title {
     display: none;
   }
+}
+
+.main--sidebar-loisirs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
