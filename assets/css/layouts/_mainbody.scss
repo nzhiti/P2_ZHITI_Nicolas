@@ -1,0 +1,19 @@
+.main--body {
+  width: 70%;
+  margin: 0 150px 0 150px;
+  display: flex;
+  flex-direction: column;
+
+  @include sm-display {
+    margin: 0;
+    width: 100%;
+    align-self: center;
+  }
+
+  &-titles {
+    width: 100%;
+    @include sm-display {
+      text-align: center;
+    }
+  }
+}

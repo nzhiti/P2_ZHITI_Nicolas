@@ -6,9 +6,9 @@
   background-color: $primaryColour;
   color: $secondaryColour;
   height: auto;
-  margin: 2em 0 2em 0;
   padding: 1em 0 1em 0;
   @include sm-display {
+    margin: 2em 0 2em 0;
     cursor: pointer;
   }
   & > h3 {
@@ -19,6 +19,67 @@
     display: none;
     @include sm-display {
       display: block;
+    }
+  }
+}
+
+.main--body-titles {
+  margin: 5em 0 5em 0;
+  &-h1 {
+    font-size: 3vw;
+    font-weight: normal;
+    margin: 0;
+    @include sm-display {
+      font-size: 8vw;
+    }
+    & > span {
+      color: $secondaryColour;
+    }
+  }
+
+  &-h2 {
+    font-weight: bold;
+    & > span {
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background: $secondaryColour;
+        margin-bottom: -8px;
+      }
+    }
+  }
+
+  &-h3 {
+    border-bottom: 2px solid $secondaryColour;
+    text-transform: uppercase;
+    @include sm-display {
+      width: 80%;
+      align-self: center;
+      font-size: 3.5vw;
+    }
+    & > i {
+      color: $secondaryColour;
+      margin: 0 10px 0 0;
+    }
+  }
+
+  &-h4 {
+    font-size: 1.2vw;
+    @include sm-display {
+      font-size: 4vw;
+    }
+  }
+
+  &-h5 {
+    font-size: 1vw;
+    font-weight: normal;
+    @include sm-display {
+      font-size: 3vw;
     }
   }
 }

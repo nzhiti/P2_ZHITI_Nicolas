@@ -1,0 +1,47 @@
+.main--body-formation {
+  display: flex;
+  flex-direction: column;
+  @include sm-display {
+    width: 100%;
+    align-items: center;
+  }
+
+  &-s {
+    display: flex;
+    @include sm-display {
+      width: 80%;
+      flex-direction: column;
+      margin: 1.5em 0 1.5em 0;
+    }
+    &-date {
+      font-weight: bold;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      margin: 0 30px 0 0;
+      @include sm-display {
+        width: 100%;
+        margin-bottom: 1em;
+      }
+
+      & > p {
+        width: 100%;
+      }
+      & > i {
+        margin: 0 15px 0 0;
+        color: $secondaryColour;
+      }
+    }
+
+    &-title {
+      & > p {
+        width: 80%;
+        margin: 1em 0 1em 0;
+        @include sm-display {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}

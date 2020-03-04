@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  @include sm-display {
+    flex-direction: column;
+    align-items: center;
+  }
+}
