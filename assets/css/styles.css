@@ -15,7 +15,7 @@ p {
 
 html {
   font-family: "Lato", "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
-  font-size: 1vw;
+  font-size: 0.8vw;
   color: #424242;
 }
 @media (max-width: 992px) {
@@ -25,7 +25,7 @@ html {
 }
 
 h3 {
-  font-size: 1.8vw;
+  font-size: 1.2vw;
 }
 @media (max-width: 992px) {
   h3 {

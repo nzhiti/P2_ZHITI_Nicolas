@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90407462-97bd-470a-92f8-0f325a4b1495" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/layouts/_loisirs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/layouts/_title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/responsive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_loisirs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_loisirs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/layouts/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_sidebar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css.map" afterDir="false" />
@@ -58,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -82,7 +82,7 @@
       <workItem from="1582626159650" duration="6173000" />
       <workItem from="1582647799030" duration="1875000" />
       <workItem from="1582706971362" duration="16000" />
-      <workItem from="1583313969174" duration="5588000" />
+      <workItem from="1583313969174" duration="6942000" />
     </task>
     <servers />
   </component>
@@ -90,14 +90,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2508" y="214" width="800" height="677" key="#Deployment" timestamp="1583322479344">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2508" y="214" width="800" height="677" key="#Deployment/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583322479344" />
     <state x="2508" y="214" width="800" height="677" key="#Notifications" timestamp="1582629859036">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2508" y="214" width="800" height="677" key="#Notifications/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1582629859036" />
+    <state x="2508" y="214" width="800" height="677" key="#Options" timestamp="1583322487593">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2508" y="214" width="800" height="677" key="#Options/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583322487593" />
     <state x="2455" y="323" width="906" height="459" key="EditFileWatcherDialog" timestamp="1583314424966">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2455" y="323" width="906" height="459" key="EditFileWatcherDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583314424966" />
+    <state x="2691" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583322401910">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2691" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583322401910" />
     <state width="1830" height="255" key="GridCell.Tab.0.bottom" timestamp="1582631517347">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -118,6 +130,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2550" y="247" width="727" height="610" key="find.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583317793918" />
+    <state x="2810" y="205" key="ftp.server.browser" timestamp="1583322430496">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2810" y="205" key="ftp.server.browser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583322430496" />
     <state x="2638" y="458" width="540" height="189" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582631401889">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
