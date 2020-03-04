@@ -298,6 +298,13 @@ h3 {
 }
 .main--sidebar-title > h3 {
   margin: 0;
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .main--sidebar-title > h3 {
+    width: 90%;
+  }
 }
 .main--sidebar-title > i {
   display: none;

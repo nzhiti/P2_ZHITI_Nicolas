@@ -12,12 +12,18 @@
   }
   & > h3 {
     margin: 0;
+    width: 100%;
+    text-align: center;
+    @include sm-display {
+      width: 90%;
+    }
   }
 
   & > i {
     display: none;
     @include sm-display {
       display: block;
+
     }
   }
 }
