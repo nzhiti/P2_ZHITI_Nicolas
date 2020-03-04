@@ -36,15 +36,15 @@ h3 {
 .main--sidebar {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   width: 30%;
   background-color: #FF8F00;
   position: relative;
   top: 0;
   bottom: 0;
-  padding: 40px 0 0px 0;
+  padding: 0;
   height: auto;
+  padding: 3em 0 0 0;
 }
 @media (max-width: 992px) {
   .main--sidebar {
@@ -56,6 +56,32 @@ h3 {
 .main--sidebar a > img {
   border-radius: 120px;
   border: 5px solid #cc7200;
+}
+
+.bloc-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloc-contact {
+  margin-top: 3em;
+  width: 100%;
+}
+
+.bloc-about {
+  width: 100%;
+}
+
+.bloc-loisirs {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .bloc-loisirs {
+    position: relative;
+  }
 }
 
 .main--body {
@@ -86,9 +112,8 @@ h3 {
   text-align: justify;
   justify-content: space-around;
   height: auto;
-  min-height: 600px;
   align-items: start;
-  margin: 1em 0 1em 0;
+  margin: 3em 0 3em 0;
 }
 @media (max-width: 992px) {
   .main--sidebar-about {
@@ -96,7 +121,6 @@ h3 {
     height: auto;
     min-height: 100px;
     align-items: center;
-    margin: 15px 0 15px 0;
   }
 }
 .main--sidebar-about p {
@@ -110,6 +134,7 @@ h3 {
   flex-direction: column;
   justify-content: space-around;
   height: auto;
+  margin: 2em 0 2em 0;
 }
 .main--sidebar-contact-icon {
   margin-right: 20px;
@@ -124,7 +149,6 @@ h3 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 0 0 1em 0;
   }
 }
 .main--sidebar-contact div {
@@ -149,12 +173,12 @@ h3 {
 }
 
 .main--sidebar-loisirs {
-  width: 80%;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 2em;
+  margin: 3em 0 3em 0;
 }
 
 .main--body-formation {
@@ -269,12 +293,11 @@ h3 {
 }
 @media (max-width: 992px) {
   .main--sidebar-title {
-    margin: 2em 0 2em 0;
     cursor: pointer;
   }
 }
 .main--sidebar-title > h3 {
-  margin: 0 20px 0 0;
+  margin: 0;
 }
 .main--sidebar-title > i {
   display: none;

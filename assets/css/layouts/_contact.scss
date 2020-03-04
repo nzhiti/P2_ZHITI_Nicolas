@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-around;
   height: auto;
+  margin: 2em 0 2em 0;
   &-icon {
     margin-right: 20px;
     @include sm-display {
@@ -16,7 +17,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 0 0 1em 0;
   }
 
   & div {

@@ -5,15 +5,14 @@
   text-align: justify;
   justify-content: space-around;
   height: auto;
-  min-height: 600px;
   align-items: start;
-  margin: 1em 0 1em 0;
+  margin: 3em 0 3em 0;
+
   @include sm-display {
     width: 100%;
     height: auto;
     min-height: 100px;
     align-items: center;
-    margin: 15px 0 15px 0;
   }
 
   & p {
