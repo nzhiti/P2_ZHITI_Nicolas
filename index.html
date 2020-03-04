@@ -6,7 +6,7 @@
     <title>ZHITI Nicolas - P02 Transformez votre CV en site Web</title>
     <meta name="description" content="Projet 2 du parcours Développeur web : Transformez votre CV en site Web">
     <meta name="author" content="ZHITI Nicolas">
-
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="assets/css/styles.css">
     <!--
         Google Font
@@ -23,40 +23,47 @@
 Font Awesome
 -->
 <script src="https://use.fontawesome.com/e51c2e96ea.js"></script>
+<script src="assets/js/responsive.js"></script>
 <section class="main">
     <aside class="main--sidebar">
         <a href="assets/img/photo.png" title="Cliquez ici pour zoomer">
             <img src="assets/img/photo_min.png" alt="Photo miniature de Monsieur ZHITI">
         </a>
-        <h3>CONTACT</h3>
-        <div class="main--sidebar-contact">
-            <div>
+        <div class="main--sidebar-title contact" onclick="dropdownContact()">
+            <h3>CONTACT</h3>
+            <i class="fas fa-caret-down"></i>
+        </div>
+        <div id="contactDiv" class="main--sidebar-contact">
+            <div class="main--sidebar-contact-s">
                 <i class="fas fa-map-marked main--sidebar-contact-icon"></i>
                 <p>
                     <span class="main--sidebar-contact-title">Adresse</span><br>6 Bis grande rue d'Athose, 25580 Athose, France
                 </p>
             </div>
-            <div>
+            <div class="main--sidebar-contact-s">
                 <i class="fas fa-phone main--sidebar-contact-icon"></i>
                 <p>
                     <span class="main--sidebar-contact-title">Téléphone</span><br>06 25 07 20 15
                 </p>
             </div>
-            <div>
+            <div class="main--sidebar-contact-s">
                 <i class="fas fa-envelope main--sidebar-contact-icon"></i>
                 <p>
                     <span class="main--sidebar-contact-title">Email</span><br>nzhiti@gmail.com
                 </p>
             </div>
-            <div>
+            <div class="main--sidebar-contact-s">
                 <i class="fab fa-discord main--sidebar-contact-icon"></i>
                 <p>
                     <span class="main--sidebar-contact-title">Discord</span><br>DrK#3065
                 </p>
             </div>
         </div>
-        <h3>À PROPOS DE MOI</h3>
-        <div class="main--sidebar-about">
+        <div class="main--sidebar-title" onclick="dropdownAbout()">
+            <h3>À PROPOS DE MOI</h3>
+            <i class="fas fa-caret-down"></i>
+        </div>
+        <div id="aboutDiv" class="main--sidebar-about">
             <i class="fas fa-quote-left"></i>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum blandit rutrum. Nunc tincidunt est
@@ -74,10 +81,17 @@ Font Awesome
             </p>
             <i class="fas fa-quote-right"></i>
         </div>
-        <h3>LOISIRS</h3>
-
+        <div class="main--sidebar-title" onclick="dropdownLoisirs()">
+            <h3>LOISIRS</h3>
+            <i class="fas fa-caret-down"></i>
+        </div>
+        <div id="loisirsDiv" class="main--sidebar-loisirs">
+            <i class="fas fa-gamepad fa-3x"></i>
+            <i class="fas fa-film fa-3x"></i>
+            <i class="fas fa-code fa-3x"></i>
+            <i class="fas fa-dog fa-3x"></i>
+        </div>
     </aside>
-
 </section>
 
 </body>

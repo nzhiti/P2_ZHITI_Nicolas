@@ -1,14 +1,15 @@
 .main--sidebar {
-
   display: flex;
   flex-direction: column;
- justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
-  width: 40%;
+  width: 30%;
   background-color: $secondaryColour;
-  position: absolute;
+  position: relative;
   top: 0;
-  padding: 40px 0 40px 0;
+  bottom: 0;
+  padding: 40px 0 0px 0;
+  height: auto;
 
   @include sm-display {
     height: auto;
@@ -20,13 +21,4 @@
     border-radius: 120px;
     border: 5px solid darken($secondaryColour , 10%);
   }
-
-  & h3 {
-    background-color: $primaryColour;
-    color: $secondaryColour;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0 10px 0;
-  }
-
 }

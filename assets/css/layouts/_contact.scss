@@ -1,10 +1,10 @@
 .main--sidebar-contact {
-
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
-  height: 250px;
+  height: auto;
   &-icon {
     margin-right: 20px;
     @include sm-display {
@@ -13,10 +13,10 @@
   }
 
   @include sm-display {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
+    margin: 0 0 1em 0;
   }
 
   & div {
@@ -27,7 +27,6 @@
       text-align: center;
       flex-direction: column;
       padding-left: 0;
-
     }
   }
 
@@ -35,6 +34,10 @@
     @include sm-display {
       display: none;
     }
+  }
+
+  &-s {
+    margin: 1em 0 1em 0;
   }
 
 }
