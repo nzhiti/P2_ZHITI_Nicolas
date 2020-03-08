@@ -34,7 +34,8 @@ Font Awesome
         <div class="bloc-contact">
             <div class="main--sidebar-title contact" onclick="dropdownContact()">
                 <h3>CONTACT</h3>
-                <i class="fas fa-caret-down"></i>
+                <i id="caretDownContact" class="fas fa-caret-down"></i>
+                <i id="caretUpContact" class="fas fa-caret-up"></i>
             </div>
             <div id="contactDiv" class="main--sidebar-contact">
                 <div class="main--sidebar-contact-s">
@@ -67,7 +68,8 @@ Font Awesome
         <div class="bloc-about">
             <div class="main--sidebar-title" onclick="dropdownAbout()">
                 <h3>À PROPOS DE MOI</h3>
-                <i class="fas fa-caret-down"></i>
+                <i id="caretDownAbout" class="fas fa-caret-down"></i>
+                <i id="caretUpAbout" class="fas fa-caret-up"></i>
             </div>
             <div id="aboutDiv" class="main--sidebar-about">
                 <i class="fas fa-quote-left"></i>
@@ -99,7 +101,8 @@ Font Awesome
         <div class="bloc-loisirs">
             <div class="main--sidebar-title" onclick="dropdownLoisirs()">
                 <h3>LOISIRS</h3>
-                <i class="fas fa-caret-down"></i>
+                <i id="caretDownLoisirs" class="fas fa-caret-down"></i>
+                <i id="caretUpLoisirs" class="fas fa-caret-up"></i>
             </div>
             <div id="loisirsDiv" class="main--sidebar-loisirs">
                 <i class="fas fa-gamepad fa-3x"></i>
@@ -110,6 +113,11 @@ Font Awesome
         </div>
     </aside>
     <article class="main--body">
+        <div class="main--body-photo">
+            <a href="assets/img/photo.png" title="Cliquez ici pour zoomer">
+                <img src="assets/img/photo_min.png" alt="Photo miniature de Monsieur ZHITI">
+            </a>
+        </div>
         <div class="main--body-titles">
             <h1 class="main--body-titles-h1"><span>NICOLAS</span> ZHITI</h1>
             <h2 class="main--body-titles-h2"><span>Dével</span>oppeur web freelance</h2>

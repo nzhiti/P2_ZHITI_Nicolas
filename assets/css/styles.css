@@ -63,6 +63,11 @@ h3 {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 992px) {
+  .bloc-photo {
+    display: none;
+  }
+}
 
 .bloc-contact {
   margin-top: 3em;
@@ -92,6 +97,7 @@ h3 {
 }
 @media (max-width: 992px) {
   .main--body {
+    align-items: center;
     margin: 0;
     width: 100%;
     align-self: center;
@@ -447,9 +453,36 @@ h3 {
 }
 @media (max-width: 992px) {
   .main {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
+}
+.main--body-photo {
+  display: none;
+}
+@media (max-width: 992px) {
+  .main--body-photo {
+    display: block;
+  }
+  .main--body-photo img {
+    border-radius: 120px;
+    border: 5px solid #cc7200;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+  }
+}
+
+#caretDownAbout {
+  display: none;
+}
+
+#caretDownContact {
+  display: none;
+}
+
+#caretDownLoisirs {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
