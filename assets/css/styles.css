@@ -15,21 +15,12 @@ p {
 
 html {
   font-family: "Lato", "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   color: #424242;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   html {
-    font-size: 3vw;
-  }
-}
-
-h3 {
-  font-size: 1.2vw;
-}
-@media (max-width: 992px) {
-  h3 {
-    font-size: 4vw;
+    font-size: 1.6vh;
   }
 }
 
@@ -39,18 +30,26 @@ h3 {
   align-items: center;
   width: 30%;
   background-color: #FF8F00;
-  position: relative;
-  top: 0;
+  height: 100%;
+  position: sticky;
   bottom: 0;
-  padding: 0;
-  height: auto;
+  top: 0;
+  left: 0;
   padding: 3em 0 0 0;
 }
-@media (max-width: 992px) {
+@media all and (min-width: 993px) {
   .main--sidebar {
-    height: auto;
-    position: relative;
+    position: sticky;
+    bottom: 0;
+    top: 0;
+    left: 0;
+  }
+}
+@media all and (max-width: 992px) {
+  .main--sidebar {
+    height: 100%;
     width: 100%;
+    padding: 0;
   }
 }
 .main--sidebar a > img {
@@ -63,7 +62,10 @@ h3 {
   flex-direction: column;
   justify-content: center;
 }
-@media (max-width: 992px) {
+.bloc-photo img {
+  width: 12vw;
+}
+@media all and (max-width: 992px) {
   .bloc-photo {
     display: none;
   }
@@ -79,23 +81,15 @@ h3 {
 }
 
 .bloc-loisirs {
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
-@media (max-width: 992px) {
-  .bloc-loisirs {
-    position: relative;
-  }
-}
-
 .main--body {
   width: 70%;
   margin: 0 150px 0 150px;
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body {
     align-items: center;
     margin: 0;
@@ -106,7 +100,7 @@ h3 {
 .main--body-titles {
   width: 100%;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-titles {
     text-align: center;
   }
@@ -121,7 +115,7 @@ h3 {
   align-items: start;
   margin: 3em 0 3em 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--sidebar-about {
     width: 100%;
     height: auto;
@@ -131,6 +125,7 @@ h3 {
 }
 .main--sidebar-about p {
   width: 60%;
+  height: auto;
 }
 
 .main--sidebar-contact {
@@ -145,12 +140,12 @@ h3 {
 .main--sidebar-contact-icon {
   margin-right: 20px;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--sidebar-contact-icon {
     margin-right: 0;
   }
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--sidebar-contact {
     flex-direction: column;
     justify-content: space-around;
@@ -160,16 +155,16 @@ h3 {
 .main--sidebar-contact div {
   display: flex;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 2vw;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--sidebar-contact div {
     text-align: center;
     flex-direction: column;
     padding-left: 0;
   }
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--sidebar-contact-title {
     display: none;
   }
@@ -192,7 +187,7 @@ h3 {
   flex-direction: column;
   width: 100%;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-formation {
     width: 100%;
     align-items: center;
@@ -201,7 +196,7 @@ h3 {
 .main--body-formation-s {
   display: flex;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-formation-s {
     width: 80%;
     flex-direction: column;
@@ -215,7 +210,7 @@ h3 {
   align-items: center;
   margin: 0 30px 0 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-formation-s-date {
     width: 100%;
     margin-bottom: 1em;
@@ -235,7 +230,7 @@ h3 {
   width: 80%;
   margin: 1em 0 1em 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-formation-s-title > p {
     width: 100%;
   }
@@ -246,7 +241,7 @@ h3 {
   flex-direction: column;
   width: 100%;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-formation {
     width: 100%;
     align-items: center;
@@ -255,7 +250,7 @@ h3 {
 .main--body-formation-s {
   display: flex;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-formation-s {
     width: 80%;
     flex-direction: column;
@@ -269,7 +264,7 @@ h3 {
   align-items: center;
   margin: 0 30px 0 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-formation-s-date {
     width: 100%;
     margin-bottom: 1em;
@@ -289,7 +284,7 @@ h3 {
   width: 80%;
   margin: 1em 0 1em 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-formation-s-title > p {
     width: 100%;
   }
@@ -303,9 +298,10 @@ h3 {
   background-color: #424242;
   color: #FF8F00;
   height: auto;
-  padding: 1em 0 1em 0;
+  padding: 1.7vh 0 1.7vh 0;
+  font-size: 1.6vh;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--sidebar-title {
     cursor: pointer;
   }
@@ -314,32 +310,34 @@ h3 {
   margin: 0;
   width: 100%;
   text-align: center;
+  font-size: 1.3vw;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--sidebar-title > h3 {
     width: 90%;
+    font-size: 1.8vh;
   }
 }
 .main--sidebar-title > i {
   display: none;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--sidebar-title > i {
     display: block;
   }
 }
 
 .main--body-titles {
-  margin: 5em 0 5em 0;
+  margin: 10vh 0 10vh 0;
 }
 .main--body-titles-h1 {
   font-size: 3vw;
   font-weight: normal;
   margin: 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-titles-h1 {
-    font-size: 8vw;
+    font-size: 4.5vh;
   }
 }
 .main--body-titles-h1 > span {
@@ -347,11 +345,11 @@ h3 {
 }
 .main--body-titles-subtitle {
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-titles-subtitle {
-    font-size: 4vw;
+    font-size: 1.8vh;
   }
 }
 .main--body-titles-subtitle > span {
@@ -370,12 +368,13 @@ h3 {
 .main--body-titles-h2 {
   border-bottom: 2px solid #FF8F00;
   text-transform: uppercase;
+  font-size: 1.3vw;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-titles-h2 {
     width: 80%;
     align-self: center;
-    font-size: 3.5vw;
+    font-size: 1.8vh;
   }
 }
 .main--body-titles-h2 > i {
@@ -383,23 +382,25 @@ h3 {
   margin: 0 10px 0 0;
 }
 .main--body-titles-main {
-  font-size: 1vw;
+  font-size: 1.1vw;
   font-weight: bold;
   margin: 10px 0 10px 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-titles-main {
-    font-size: 3.5vw;
+    font-size: 1.6vh;
   }
 }
 .main--body-titles-sub {
-  font-size: 1vw;
+  font-size: 0.9vw;
   font-weight: normal;
+  font-style: normal;
   margin: 5px 0 5px 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-titles-sub {
-    font-size: 3vw;
+    font-size: 1.6vh;
+    font-style: italic;
   }
 }
 
@@ -408,7 +409,7 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-exp {
     width: 100%;
     align-items: center;
@@ -417,7 +418,7 @@ h3 {
 .main--body-exp-s {
   display: flex;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-exp-s {
     width: 80%;
     flex-direction: column;
@@ -431,7 +432,7 @@ h3 {
   align-items: center;
   margin: 0 30px 0 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-exp-s-date {
     width: 100%;
     margin-bottom: 1em;
@@ -451,7 +452,7 @@ h3 {
   width: 80%;
   margin: 1em 0 1em 0;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-exp-s-title > p {
     width: 100%;
   }
@@ -472,7 +473,7 @@ h3 {
   display: flex;
   flex-direction: row-reverse;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main {
     flex-direction: column;
     align-items: center;
@@ -481,15 +482,15 @@ h3 {
 .main--body-photo {
   display: none;
 }
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
   .main--body-photo {
     display: block;
   }
   .main--body-photo img {
-    border-radius: 120px;
-    border: 5px solid #cc7200;
-    width: 150px;
-    height: 150px;
+    border-radius: 250px;
+    border: 6px solid #cc7200;
+    width: auto;
+    height: 25vh;
     margin-top: 30px;
   }
 }

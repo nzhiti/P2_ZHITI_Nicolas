@@ -7,9 +7,3 @@ html {
   }
 }
 
-h3 {
-  font-size: $title-md-size;
-  @include sm-display {
-    font-size: $title-sm-size;
-  }
-}

@@ -1,6 +1,7 @@
 .main {
   display: flex;
   flex-direction: row-reverse;
+
   @include sm-display {
     flex-direction: column;
     align-items: center;
@@ -11,10 +12,10 @@
       @include sm-display {
         display: block;
         & img {
-          border-radius: 120px;
-          border: 5px solid darken($secondaryColour , 10%);
-          width: 150px;
-          height: 150px;
+          border-radius: 250px;
+          border: 6px solid darken($secondaryColour , 10%);
+          width: auto;
+          height: 25vh;
           margin-top: 30px;
         }
       }

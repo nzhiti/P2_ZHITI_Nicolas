@@ -1,7 +1,7 @@
 const windowWidth = window.matchMedia("(max-width: 992px)");
 
-
 window.addEventListener("resize", showDivs);
+
 
 function dropdownContact() {
     const contactDiv = document.getElementById('contactDiv');
@@ -84,3 +84,4 @@ function showDivs() {
         contactDivCaretDown.style.display = "none";
     }
 }
+

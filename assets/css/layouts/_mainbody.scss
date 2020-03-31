@@ -4,13 +4,6 @@
   display: flex;
   flex-direction: column;
 
-  &-photo {
-    @include sm-display {
-
-    }
-  }
-
-
   @include sm-display {
     align-items: center;
     margin: 0;
