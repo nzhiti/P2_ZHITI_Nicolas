@@ -42,8 +42,12 @@
     }
   }
 
-  &-h2 {
+  &-subtitle {
     font-weight: bold;
+    font-size: 1.5vw;
+    @include sm-display {
+      font-size: 4vw;
+    }
     & > span {
       position: relative;
       &::before {
@@ -59,7 +63,7 @@
     }
   }
 
-  &-h3 {
+  &-h2 {
     border-bottom: 2px solid $secondaryColour;
     text-transform: uppercase;
     @include sm-display {
@@ -73,16 +77,20 @@
     }
   }
 
-  &-h4 {
-    font-size: 1.2vw;
+  &-main {
+    font-size: 1vw;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
     @include sm-display {
-      font-size: 4vw;
+      font-size: 3.5vw;
     }
   }
 
-  &-h5 {
+  &-sub {
     font-size: 1vw;
     font-weight: normal;
+    margin: 5px 0 5px 0;
+
     @include sm-display {
       font-size: 3vw;
     }

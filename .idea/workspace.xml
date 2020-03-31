@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90407462-97bd-470a-92f8-0f325a4b1495" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_exp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_exp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_formation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_formation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_title.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.scss" afterDir="false" />
@@ -55,10 +55,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -84,6 +86,10 @@
       <workItem from="1583856829045" duration="8000" />
       <workItem from="1583918483752" duration="2084000" />
       <workItem from="1584010057031" duration="3506000" />
+      <workItem from="1585302181857" duration="261000" />
+      <workItem from="1585325736453" duration="1251000" />
+      <workItem from="1585641248179" duration="1583000" />
+      <workItem from="1585643159362" duration="1964000" />
     </task>
     <servers />
   </component>
@@ -95,6 +101,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2508" y="214" width="800" height="677" key="#Deployment/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583322479344" />
+    <state x="361" y="71" key="#File_Watchers" timestamp="1585642943939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#File_Watchers/0.0.1536.824@0.0.1536.824" timestamp="1585642943939" />
     <state x="2508" y="214" width="800" height="677" key="#Notifications" timestamp="1582629859036">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -103,9 +113,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2508" y="214" width="800" height="677" key="#Options/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583323786044" />
-    <state x="583" y="342" width="906" height="459" key="EditFileWatcherDialog" timestamp="1584014845088">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="428" y="246" width="752" height="440" key="EditFileWatcherDialog" timestamp="1585643292460">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="428" y="246" width="752" height="440" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1585643292460" />
     <state x="2455" y="323" width="906" height="459" key="EditFileWatcherDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583314424966" />
     <state x="583" y="342" key="EditFileWatcherDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584014845088" />
     <state x="2691" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583322401910">
@@ -128,6 +139,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1830" height="255" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1582631517347" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1585643294295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585643294295" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584010060045">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

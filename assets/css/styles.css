@@ -345,13 +345,19 @@ h3 {
 .main--body-titles-h1 > span {
   color: #FF8F00;
 }
-.main--body-titles-h2 {
+.main--body-titles-subtitle {
   font-weight: bold;
+  font-size: 1.5vw;
 }
-.main--body-titles-h2 > span {
+@media (max-width: 992px) {
+  .main--body-titles-subtitle {
+    font-size: 4vw;
+  }
+}
+.main--body-titles-subtitle > span {
   position: relative;
 }
-.main--body-titles-h2 > span::before {
+.main--body-titles-subtitle > span::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -361,35 +367,38 @@ h3 {
   background: #FF8F00;
   margin-bottom: -8px;
 }
-.main--body-titles-h3 {
+.main--body-titles-h2 {
   border-bottom: 2px solid #FF8F00;
   text-transform: uppercase;
 }
 @media (max-width: 992px) {
-  .main--body-titles-h3 {
+  .main--body-titles-h2 {
     width: 80%;
     align-self: center;
     font-size: 3.5vw;
   }
 }
-.main--body-titles-h3 > i {
+.main--body-titles-h2 > i {
   color: #FF8F00;
   margin: 0 10px 0 0;
 }
-.main--body-titles-h4 {
-  font-size: 1.2vw;
+.main--body-titles-main {
+  font-size: 1vw;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
 }
 @media (max-width: 992px) {
-  .main--body-titles-h4 {
-    font-size: 4vw;
+  .main--body-titles-main {
+    font-size: 3.5vw;
   }
 }
-.main--body-titles-h5 {
+.main--body-titles-sub {
   font-size: 1vw;
   font-weight: normal;
+  margin: 5px 0 5px 0;
 }
 @media (max-width: 992px) {
-  .main--body-titles-h5 {
+  .main--body-titles-sub {
     font-size: 3vw;
   }
 }
