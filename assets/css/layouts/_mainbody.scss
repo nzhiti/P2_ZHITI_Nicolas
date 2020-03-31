@@ -3,6 +3,8 @@
   margin: 0 150px 0 150px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  min-height: 100vh;
 
   @include sm-display {
     align-items: center;

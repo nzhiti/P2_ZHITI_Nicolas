@@ -13,6 +13,10 @@ p {
   margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Lato", "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
   font-size: 0.9vw;
@@ -30,11 +34,7 @@ html {
   align-items: center;
   width: 30%;
   background-color: #FF8F00;
-  height: 100%;
-  position: sticky;
-  bottom: 0;
-  top: 0;
-  left: 0;
+  min-height: 100vh;
   padding: 3em 0 0 0;
 }
 @media all and (min-width: 993px) {
@@ -84,11 +84,21 @@ html {
 .bloc-loisirs {
   width: 100%;
 }
+@media all and (min-width: 993px) {
+  .bloc-loisirs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 .main--body {
   width: 70%;
   margin: 0 150px 0 150px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  min-height: 100vh;
 }
 @media all and (max-width: 992px) {
   .main--body {
