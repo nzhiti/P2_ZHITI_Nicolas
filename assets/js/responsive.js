@@ -58,6 +58,13 @@ function showDivs() {
     const contactDiv = document.getElementById('contactDiv');
     const aboutDiv = document.getElementById('aboutDiv');
     const loisirsDiv = document.getElementById('loisirsDiv');
+    const loisirsDivCaretUp = document.getElementById('caretUpLoisirs');
+    const loisirsDivCaretDown = document.getElementById('caretDownLoisirs');
+    const aboutDivCaretUp = document.getElementById('caretUpAbout');
+    const aboutDivCaretDown = document.getElementById('caretDownAbout');
+    const contactDivCaretUp = document.getElementById('caretUpContact');
+    const contactDivCaretDown = document.getElementById('caretDownContact');
+
     if (contactDiv.style.display === "none") {
         contactDiv.style.display = "flex";
     }
@@ -69,12 +76,6 @@ function showDivs() {
     }
 
     if (window.matchMedia("(min-width: 993px)").matches) {
-        const loisirsDivCaretUp = document.getElementById('caretUpLoisirs');
-        const loisirsDivCaretDown = document.getElementById('caretDownLoisirs');
-        const aboutDivCaretUp = document.getElementById('caretUpAbout');
-        const aboutDivCaretDown = document.getElementById('caretDownAbout');
-        const contactDivCaretUp = document.getElementById('caretUpContact');
-        const contactDivCaretDown = document.getElementById('caretDownContact');
 
         loisirsDivCaretUp.style.display = "none";
         loisirsDivCaretDown.style.display = "none";
@@ -82,6 +83,15 @@ function showDivs() {
         aboutDivCaretDown.style.display = "none";
         contactDivCaretUp.style.display = "none";
         contactDivCaretDown.style.display = "none";
+    }
+
+    if (windowWidth.matches) {
+        loisirsDivCaretUp.style.display = "block";
+        aboutDivCaretUp.style.display = "block";
+        contactDivCaretUp.style.display = "block";
+        contactDivCaretDown.style.display = "none";
+        aboutDivCaretDown.style.display = "none";
+        loisirsDivCaretDown.style.display = "none";
     }
 }
 
