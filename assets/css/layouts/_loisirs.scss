@@ -4,5 +4,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 3em 0 3em 0;
+  margin: 2em 0 2em 0;
+  & > i {
+    border: 2px solid $primaryColour;
+    border-radius: 280px;
+    padding: 8px;
+  }
 }

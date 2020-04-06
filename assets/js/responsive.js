@@ -9,9 +9,9 @@ function dropdownContact() {
     const contactDivCaretDown = document.getElementById('caretDownContact');
     if (windowWidth.matches) {
         if (contactDiv.style.display === "flex") {
+            contactDivCaretUp.style.display = "none";
             contactDiv.style.display = "none";
             contactDivCaretDown.style.display = "block";
-            contactDivCaretUp.style.display = "none";
         } else {
             contactDiv.style.display = "flex";
             contactDivCaretDown.style.display = "none";

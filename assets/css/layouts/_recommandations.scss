@@ -3,9 +3,17 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 3em;
-  &-s {
-    display: flex;
-    justify-content: space-around;
+  @include sm-display {
+    width: 100%;
+    align-items: center;
   }
-
+  &-s {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    @include sm-display {
+      width: 80%;
+      align-items: start;
+    }
+  }
 }

@@ -3,11 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="90407462-97bd-470a-92f8-0f325a4b1495" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_mainbody.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_mainbody.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_exp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_exp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_formation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_formation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_loisirs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_loisirs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_recommandations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_recommandations.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/layouts/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layouts/_title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/_title.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/utils/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/utils/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/responsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/responsive.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +100,7 @@
       <workItem from="1585664864512" duration="178000" />
       <workItem from="1585669660173" duration="624000" />
       <workItem from="1585672035508" duration="1132000" />
+      <workItem from="1586184523487" duration="3024000" />
     </task>
     <servers />
   </component>
